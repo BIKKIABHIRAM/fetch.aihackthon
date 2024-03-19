@@ -1,23 +1,31 @@
-# project title : TEXT SUMMARIZATION WITH AI AGENT.
+# project title : AI-Enhanced Text Summarization with Fetch.ai Agents.
 **Description:**
-    This project aims to demonstrate the implementation of text summarization using Hugging Face models integrated with Fetch.ai AI Agent technology. Text summarization is the process of distilling large bodies of text into concise summaries while preserving the most important information. By leveraging state-of-the-art natural language processing models from Hugging Face and Fetch.ai's agent technology, we enable efficient and automated text summarization for various use cases.
+    The AI-Enhanced Text Summarization project leverages cutting-edge natural language processing (NLP) models from Hugging Face and Fetch.ai's advanced agent technology to provide an efficient and automated solution for summarizing large bodies of text. By harnessing the power of state-of-the-art transformer models, this project aims to condense lengthy documents into concise summaries while retaining the most important information. Whether for research, business, or personal use, our solution offers a seamless and intelligent approach to text summarization.
 
 
 **Instructions to Run the Project:**
-
-    Clone the repository to your local machine.
-    Install the necessary dependencies by running:
+    To run the project locally, follow these steps:
     
+    Clone the Repository: Clone the repository to your local machine using the following command:
+               [ git clone <repository-url> ]
+               ry and install the required dependencies using pip:
                [ pip install -r requirements.txt ]
-               
-    Set up API keys and environment variables (if required) as specified in the .env.example file.
-    Run the main script to start the text summarization agent:
-    
+    Set Up API Keys and Environment Variables:
+    Copy the .env.example file to .env.
+    Obtain API keys for Hugging Face and Fetch.ai, and replace the placeholders in the .env file with your actual keys.
+    Run the Main Script: Execute the main script to start the text summarization agent:
               [ python main.py ]
               
-   Follow the prompts or send HTTP requests to the agent to request text summarization.
+   Interact with the Agent:
+   Follow the prompts provided by the agent to input the text you want summarized.
+   
+   Alternatively, you can send HTTP requests to the agent's endpoint for text summarization.
 
 **Special Considerations:**
-   Ensure that you have a stable internet connection as the Hugging Face models may require internet access to download the necessary resources.
-   Provide appropriate input text for summarization requests to obtain meaningful summaries.
 
+   **Internet Connection:** Ensure a stable internet connection as Hugging Face models may require internet access to download necessary resources.
+   
+   **Input Text Quality:** Provide well-formatted input text for accurate and meaningful summaries.
+   
+   **Security:** Protect sensitive data such as API keys by avoiding inclusion in the public repository. Instead, use environment variables to securely store and 
+   access these keys.
