@@ -6,10 +6,14 @@
 **Instructions to Run the Project:**
     Clone the repository to your local machine.
     Install the necessary dependencies by running:
+    
                [ pip install -r requirements.txt ]
+               
     Set up API keys and environment variables (if required) as specified in the .env.example file.
     Run the main script to start the text summarization agent:
+    
               [ python main.py ]
+              
    Follow the prompts or send HTTP requests to the agent to request text summarization.
 
 
